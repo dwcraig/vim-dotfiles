@@ -1,0 +1,4 @@
+" get started from pathogen
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
