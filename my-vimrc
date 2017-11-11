@@ -1,4 +1,17 @@
-" get started from pathogen
+"get started from pathogen
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+colorscheme monokai
+
+" airline tabline
+let g:airline#extensions#tabline#enabled=1
+
+"line numbers
+set number
+
+"mouse select
+set mouse=a
+
+" set 256 colors
+set t_Co=256
