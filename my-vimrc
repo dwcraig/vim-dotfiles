@@ -13,5 +13,12 @@ set number
 "mouse select
 set mouse=a
 
+" show existing tabs as 4 spaces
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" when tab is pressed, insert 4 spaces
+set expandtab
+
 " set 256 colors
 set t_Co=256
